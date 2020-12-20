@@ -6,7 +6,7 @@ replicaCount: 5
 
 image:
   repository: fsadykov/hello-world
-  tag: stable
+  tag: latest
   pullPolicy: IfNotPresent
 app:
   port: 5000 
